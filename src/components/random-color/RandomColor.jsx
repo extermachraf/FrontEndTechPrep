@@ -46,4 +46,38 @@ const RandomColor = () => {
   )
 }
 
-export default RandomColor
+// export default RandomColor
+// import React, { useState } from 'react';
+// import './randomColor.css';
+
+// const RandomColor = () => {
+//   const [colorType, setColorType] = useState('hex');
+//   const [color, setColor] = useState('#f15025');
+
+//   const getRandomColor = (type) => {
+//     if (type === 'hex') {
+//       return `#${Math.random().toString(16).substr(-6)}`;
+//     } else if (type === 'rgb') {
+//       return `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+//     }
+//   };
+
+//   const handleCreateColor = (type) => {
+//     setColorType(type);
+//     setColor(getRandomColor(type));
+//   };
+
+//   return (
+//     <div style={{ width: '100vw', height: '100vh', background: color }} className='container'>
+//       <div className='wrapper'>
+//         <button onClick={() => handleCreateColor('hex')}>Create HEX color</button>
+//         <button onClick={() => handleCreateColor('rgb')}>Create RGB color</button>
+//         <button onClick={() => handleCreateColor(Math.random() > 0.5 ? 'hex' : 'rgb')}>Generate Random Color</button>
+//       </div>
+//       <div className='text'>{colorType}</div>
+//       <div className='text'>{color}</div>
+//     </div>
+//   );
+// };
+
+export default RandomColor;
