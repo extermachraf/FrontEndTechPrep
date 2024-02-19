@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-button {
+.bt {
     padding: 10px 20px;
     text-align: center;
     text-size-adjust: 100%;

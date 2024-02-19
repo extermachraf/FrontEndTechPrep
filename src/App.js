@@ -5,6 +5,7 @@ import StarRating from './components/starRating/StarRating';
 import ImageSlider from './components/imageSlider/ImageSlider';
 import More from './components/load-more/More';
 import sidemenu from './components/load-more/data';
+import QrGeneratore from './components/qrGeneratore/QrGeneratore';
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
       {/* <RandomColor /> */}
       {/* <StarRating /> */}
       {/* <ImageSlider url={'https://picsum.photos/v2/list'} limi t={10} page={1} /> */}
-      <More menus={sidemenu} />
+      {/* <More menus={sidemenu} /> */}
+      <QrGeneratore />
     </div>
   );
 }
