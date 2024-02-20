@@ -1,0 +1,22 @@
+.take-all{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.scroll-progress-container{
+    width: 100%;
+    height: 10px;
+    background-color: #c82626ef;
+}
+
+.curent-progress{
+    height: 10px;
+    background: #8b02b5;
+    transition: width 0.1s;
+    width: 0%;
+}

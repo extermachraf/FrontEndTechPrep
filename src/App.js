@@ -7,16 +7,18 @@ import More from './components/load-more/More';
 import sidemenu from './components/load-more/data';
 import QrGeneratore from './components/qrGeneratore/QrGeneratore';
 import SwitchTheme from './components/switchTheme/SwitchTheme';
+import CustomScroll from './components/CustomScroll/CustomScroll';
 function App() {
   return (
     <div className="App">
       {/* <Accordian /> */}
       {/* <RandomColor /> */}
       {/* <StarRating /> */}
-      {/* <ImageSlider url={'https://picsum.photos/v2/list'} limi t={10} page={1} /> */}
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} limit={10} page={1} /> */}
       {/* <More menus={sidemenu} /> */}
       {/* <QrGeneratore /> */}
-      <SwitchTheme />
+      {/* <SwitchTheme /> */}
+      <CustomScroll url={'https://dummyjson.com/products?limit=100'} />
     </div>
   );
 }
