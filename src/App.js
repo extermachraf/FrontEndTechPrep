@@ -8,6 +8,8 @@ import sidemenu from './components/load-more/data';
 import QrGeneratore from './components/qrGeneratore/QrGeneratore';
 import SwitchTheme from './components/switchTheme/SwitchTheme';
 import CustomScroll from './components/CustomScroll/CustomScroll';
+import TabsContent from './components/customTabs/TabsContent';
+import ModalTest from './components/modalPopup/ModalTest';
 function App() {
   return (
     <div className="App">
@@ -18,7 +20,9 @@ function App() {
       {/* <More menus={sidemenu} /> */}
       {/* <QrGeneratore /> */}
       {/* <SwitchTheme /> */}
-      <CustomScroll url={'https://dummyjson.com/products?limit=100'} />
+      {/* <CustomScroll url={'https://dummyjson.com/products?limit=100'} /> */}
+      {/* <TabsContent /> */}
+      <ModalTest />
     </div>
   );
 }
