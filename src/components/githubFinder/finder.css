@@ -1,0 +1,65 @@
+/* CSS */
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.user .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.user .biographiw {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.user .informations div {
+    font-size: 14px;
+    color: #333;
+}
+
+.finder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

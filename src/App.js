@@ -10,6 +10,7 @@ import SwitchTheme from './components/switchTheme/SwitchTheme';
 import CustomScroll from './components/CustomScroll/CustomScroll';
 import TabsContent from './components/customTabs/TabsContent';
 import ModalTest from './components/modalPopup/ModalTest';
+import Finder from './components/githubFinder/Finder';
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,8 @@ function App() {
       {/* <SwitchTheme /> */}
       {/* <CustomScroll url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabsContent /> */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      <Finder />
     </div>
   );
 }
