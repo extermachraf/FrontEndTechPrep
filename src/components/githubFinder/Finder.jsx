@@ -5,7 +5,6 @@ import "./finder.css";
 
 const DisplayInformations = ({ user }) => {
     const { login, avatar_url, name, bio, public_repos, followers, following } = user;
-    console.log()
     return (
         <div className="user">
             <div>
@@ -42,7 +41,6 @@ const Finder = () => {
     function handleSubmit() {
         fetchGithubUser();
     }
-    console.log("user data : ", userData);
 
     if (loading) {
         return <h1>Loading...</h1>;

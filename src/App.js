@@ -11,6 +11,8 @@ import CustomScroll from './components/CustomScroll/CustomScroll';
 import TabsContent from './components/customTabs/TabsContent';
 import ModalTest from './components/modalPopup/ModalTest';
 import Finder from './components/githubFinder/Finder';
+import AutoComplet from './components/searchAutoComplete/AutoComplet';
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +26,8 @@ function App() {
       {/* <CustomScroll url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabsContent /> */}
       {/* <ModalTest /> */}
-      <Finder />
+      {/* <Finder /> */}
+      <AutoComplet />
     </div>
   );
 }
