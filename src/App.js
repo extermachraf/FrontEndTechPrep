@@ -13,7 +13,8 @@ import ModalTest from './components/modalPopup/ModalTest';
 import Finder from './components/githubFinder/Finder';
 import AutoComplet from './components/searchAutoComplete/AutoComplet';
 import TicTac from './components/ticTacTo/TicTac';
-
+import FeatureFlagGlobalContext from './components/featurFlag/context/FeatureFlagGlobalContext';
+import MyContext from './components/featurFlag/MyContext';
 function App() {
   return (
     <div className="App">
@@ -29,7 +30,10 @@ function App() {
       {/* <ModalTest /> */}
       {/* <Finder /> */}
       {/* <AutoComplet /> */}
-      <TicTac />
+      {/* <TicTac /> */}
+      <FeatureFlagGlobalContext>
+        <MyContext></MyContext>
+      </FeatureFlagGlobalContext>
     </div>
   );
 }
