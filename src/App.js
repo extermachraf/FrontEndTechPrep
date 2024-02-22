@@ -12,6 +12,7 @@ import TabsContent from './components/customTabs/TabsContent';
 import ModalTest from './components/modalPopup/ModalTest';
 import Finder from './components/githubFinder/Finder';
 import AutoComplet from './components/searchAutoComplete/AutoComplet';
+import TicTac from './components/ticTacTo/TicTac';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <TabsContent /> */}
       {/* <ModalTest /> */}
       {/* <Finder /> */}
-      <AutoComplet />
+      {/* <AutoComplet /> */}
+      <TicTac />
     </div>
   );
 }
