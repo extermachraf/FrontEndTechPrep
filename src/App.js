@@ -17,6 +17,7 @@ import FeatureFlagGlobalContext from './components/featurFlag/context/FeatureFla
 import MyContext from './components/featurFlag/MyContext';
 import UseFetchHookTest from './components/fetchHook/UseFetchHookTest';
 import UseOnclickOutsideTest from './components/useOutsideClick/test';
+import UseWindowResizeTest from './components/windowSize/test';
 function App() {
   return (
     <div className="App">
@@ -37,7 +38,8 @@ function App() {
         <MyContext></MyContext>
       </FeatureFlagGlobalContext> */}
       {/* <UseFetchHookTest /> */}
-      <UseOnclickOutsideTest />
+      {/* <UseOnclickOutsideTest /> */}
+      <UseWindowResizeTest />
     </div>
   );
 }
