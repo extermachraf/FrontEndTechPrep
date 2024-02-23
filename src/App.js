@@ -15,6 +15,7 @@ import AutoComplet from './components/searchAutoComplete/AutoComplet';
 import TicTac from './components/ticTacTo/TicTac';
 import FeatureFlagGlobalContext from './components/featurFlag/context/FeatureFlagGlobalContext';
 import MyContext from './components/featurFlag/MyContext';
+import UseFetchHookTest from './components/fetchHook/UseFetchHookTest';
 function App() {
   return (
     <div className="App">
@@ -31,9 +32,10 @@ function App() {
       {/* <Finder /> */}
       {/* <AutoComplet /> */}
       {/* <TicTac /> */}
-      <FeatureFlagGlobalContext>
+      {/* <FeatureFlagGlobalContext>
         <MyContext></MyContext>
-      </FeatureFlagGlobalContext>
+      </FeatureFlagGlobalContext> */}
+      <UseFetchHookTest />
     </div>
   );
 }

@@ -2,8 +2,18 @@ import { Children } from "react";
 
 export const sidemenu = [
     {
+        label : "projects"
+    },
+    {
         label : "Home",
-        to: "/"
+        to: "/",
+        Children : [
+            {
+                label : "chi7aja",
+                to : "dfgt",
+
+            }
+        ]
     },
     {
         label : "Profile",
