@@ -6,7 +6,7 @@ export default function UseFetchHookTest() {
     {}
   );
 
-  console.log(data, error, pending);
+  console.log(data, error, pending);;
   return (
     <div>
       <h1>Use Fetch Custom Hook</h1>

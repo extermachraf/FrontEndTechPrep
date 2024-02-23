@@ -18,6 +18,7 @@ import MyContext from './components/featurFlag/MyContext';
 import UseFetchHookTest from './components/fetchHook/UseFetchHookTest';
 import UseOnclickOutsideTest from './components/useOutsideClick/test';
 import UseWindowResizeTest from './components/windowSize/test';
+import TopAndButtomScroll from './components/scroolToTop';
 function App() {
   return (
     <div className="App">
@@ -39,7 +40,8 @@ function App() {
       </FeatureFlagGlobalContext> */}
       {/* <UseFetchHookTest /> */}
       {/* <UseOnclickOutsideTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      <TopAndButtomScroll />
     </div>
   );
 }
